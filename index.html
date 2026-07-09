@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Professional digital portfolio showing expertise in web design and development.">
+    <meta name="keywords" content="Portfolio, Frontend Developer, Tailwind CSS, Web Expert">
+    <meta name="author" content="Piyas Chandra Gope">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Elite Portfolio</title>
+
+    <!-- Tailwind CSS and DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+
+    <!-- Navbar -->
+    <div class="navbar bg-white shadow-md px-4">
+        <div class="navbar-start">
+            <a href="index.html" class="text-xl font-bold">TechPiyas</a>
+        </div>
+
+        <div class="navbar-end lg:hidden">
+            <div class="dropdown dropdown-end">
+                <label tabindex="0" class="btn btn-ghost">
+                    Menu
+                </label>
+
+                <ul tabindex="0"
+                style="background:#ffffff !important;
+                color:#000000 !important;
+                border:1px solid #d1d5db;
+                z-index:9999;"
+                class="menu menu-sm dropdown-content mt-3 p-2 rounded-box w-52">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="navbar-end hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Banner Slider (Your Original Structure Kept Verbatim) -->
+    <section class="max-w-6xl mx-auto mt-6 px-4 w-full">
+        <div class="carousel w-full rounded-lg">
+            <div id="slide1" class="carousel-item relative w-full">
+                <div class="w-full h-80 bg-blue-200 flex items-center justify-center text-center p-6">
+                    <div>
+                        <h1 class="text-4xl font-bold mb-3">Welcome to My Portfolio</h1>
+                        <p class="text-lg">
+                         I help businesses grow through Google Ads, Social Media Marketing,
+                         and <br> SEO by creating data-driven strategies that increase traffic,
+                         leads, and sales.
+                        </p>
+                    </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">Prev</a>
+                    <a href="#slide2" class="btn btn-circle">Next</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <div class="w-full h-80 bg-green-200 flex items-center justify-center text-center p-6">
+                    <div>
+                        <h1 class="text-4xl font-bold mb-3">Social Media Marketing</h1>
+                        <p class="text-lg">I help businesses grow their online presence through strategic social media marketing.<br> From content planning and audience engagement to campaign optimization,<br> I focus on increasing brand awareness and driving meaningful results.
+                        </p>
+                    </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">Prev</a>
+                    <a href="#slide3" class="btn btn-circle">Next</a>
+                </div>
+                
+            </div>  
+            <div id="slide3" class="carousel-item relative w-full">
+                <div class="w-full h-80 bg-yellow-200 flex items-center justify-center text-center p-6">
+                    <div>
+                        <h1 class="text-4xl font-bold mb-3">Search Engine Marketing - SEM</h1>
+                        <p class="text-lg">I create and optimize Google Ads campaigns
+                             that drive targeted traffic,<br> 
+                             quality leads, and measurable business growth.
+                             My focus is on maximizing<br> ROI through data-driven
+                             strategies and continuous campaign optimization.
+                        </p>
+                    </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">Prev</a>
+                    <a href="#slide1" class="btn btn-circle">Next</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="max-w-7xl mx-auto px-6 py-16 w-full">
+        <div class="grid lg:grid-cols-2 gap-12 items-center bg-white border border-slate-100 p-8 md:p-12 rounded-2xl shadow-sm">
+            <div class="relative">
+                <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-indigo-500 to-purple-500 blur opacity-25"></div>
+                <img class="relative rounded-2xl w-full object-cover h-[450px]" src="https://media.licdn.com/dms/image/v2/D5622AQGeUO8LB837Gw/feedshare-shrink_1280/B56ZnBjH53HQAs-/0/1759888836374?e=1784160000&v=beta&t=4gC_HHTwfiWU4fyJmzDLufla-DG82r616JVA4Dn_NuI" alt="Professional Portrait">
+            </div>
+            <div>
+                <span class="text-xs uppercase font-bold tracking-widest text-indigo-600 block mb-2">Introduction</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mb-4">Piyas Chandra Gope,</h2>
+                <p class="text-slate-600 leading-relaxed mb-4"> is a Digital Marketing Professional based in Bangladesh, currently serving as a Senior Digital Marketing Executive and Digital Marketing Trainer at Skillroom Bangladesh IT.Professional ProfileRoles: Senior Digital Marketing Executive & TrainerLocation: BangladeshSpecialties: Search Engine Optimization (SEO), Social Media Marketing (SMM), and Search Engine Marketing (SEM)Certification: NSDA Level-3 & 4.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="bg-slate-100 border-y border-slate-200 py-16 w-full">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-2xl border border-slate-200/60 shadow-sm">
+                    <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 font-bold text-xl mb-4">🎯</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Corporate Mission</h3>
+                    <p class="text-slate-600 leading-relaxed">To help individuals and businesses grow through effective digital marketing strategies, practical training, and result-driven online solutions in SEO, SMM, and SEM.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl border border-slate-200/60 shadow-sm">
+                    <div class="w-12 h-12 bg-purple-50 rounded-xl flex items-center justify-center text-purple-600 font-bold text-xl mb-4">🚀</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Strategic Vision</h3>
+                    <p class="text-slate-600 leading-relaxed">To become a leading digital marketing professional and trainer in Bangladesh, empowering the next generation with industry-relevant skills and contributing to the country’s digital transformation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section class="max-w-7xl mx-auto px-6 py-16 w-full">
+        <h2 class="text-3xl font-extrabold text-center text-slate-900 mb-12">Core Specializations</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:border-indigo-200 transition">
+                <h3 class="text-lg font-bold text-slate-900 mb-2">Search Engine Optimization (SEO)</h3>
+                <p class="text-slate-600 text-sm">Improve website visibility through on-page, off-page, technical SEO, keyword research, and content optimization to achieve higher rankings on search engines.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:border-indigo-200 transition">
+                <h3 class="text-lg font-bold text-slate-900 mb-2">Social Media Marketing (SMM)</h3>
+                <p class="text-slate-600 text-sm">Develop and manage effective social media campaigns on Facebook, Instagram, LinkedIn, and other platforms to increase brand awareness and audience engagement.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:border-indigo-200 transition">
+                <h3 class="text-lg font-bold text-slate-900 mb-2">Search Engine Marketing (SEM)</h3>
+                <p class="text-slate-600 text-sm">Plan and optimize paid advertising campaigns using Google Ads and other PPC platforms to maximize traffic, conversions, and return on investment (ROI).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials Section -->
+    <section class="bg-slate-900 text-white py-16 w-full">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-center mb-12">Enterprise Review Matrix</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700/50">
+                    <p class="text-slate-300 italic mb-4">"Piyas consistently delivered outstanding digital marketing strategies that significantly improved our online visibility and organic traffic. His professionalism and dedication exceeded our expectations."</p>
+                    <h4 class="font-bold text-indigo-400">Operations Director</h4>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700/50">
+                    <p class="text-slate-300 italic mb-4">"The SEO and Google Ads campaigns managed by Piyas generated measurable growth in leads and conversions. His analytical approach and optimization skills made a real impact."</p>
+                    <h4 class="font-bold text-indigo-400">Technical Lead</h4>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700/50">
+                    <p class="text-slate-300 italic mb-4">"Working with Piyas was a great experience. His social media marketing strategies increased our audience engagement and strengthened our brand presence across digital platforms."</p>
+                    <h4 class="font-bold text-indigo-400">Product Principal</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Footer -->
+    <footer class="bg-slate-100 border-t border-slate-200 py-8 px-6 mt-auto text-center text-sm text-slate-500">
+        <div class="max-w-7xl mx-auto">
+            <p class="font-bold text-slate-700 mb-1">Design by PIYAS CHANDRA GOPE</p>
+            <p class="mb-3">All rights reserved © 2026</p>
+            <div class="inline-block bg-slate-200/60 px-4 py-1.5 rounded-full font-mono text-xs text-slate-600" id="liveTimestamp">Syncing...</div>
+        </div>
+         <aside>
+        <p align="center" id="dateTime">Loading date and time...</p>
+      </aside>
+    </footer>
+
+
+    <!-- External Script Integration -->
+    <script src="script.js"></script>
+</body>
+</html>
